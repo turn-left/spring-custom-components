@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/scanbean/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus-ds/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisplus-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/easy-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/dynamic-datasource-param/pom.xml" />
+        <option value="$PROJECT_DIR$/cache-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/di-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/mvc-hystrix/mvc-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-hystrix/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

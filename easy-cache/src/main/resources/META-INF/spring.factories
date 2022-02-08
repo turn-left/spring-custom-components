@@ -1,0 +1,10 @@
+#spring工程的扩展
+#cn.enjoy.cache.LocalCacheService=cn.enjoy.cache.CaffeineCacheServiceImpl,cn.enjoy.cache.GuavaCacheServiceImpl
+#cn.enjoy.distributedCache.CacheService=cn.enjoy.distributedCache.RedisCacheServiceImpl
+#cn.enjoy.flow.BeanPostProcessor=
+#cn.enjoy.config.ConfigBeans=cn.enjoy.config.ConfigBeans
+#spring工程的扩展
+
+#springboot方式的扩展
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=cn.enjoy.config.ConfigBeans
+#cn.enjoy.flow.BeanPostProcessorxxx

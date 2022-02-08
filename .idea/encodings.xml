@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/cache-annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cache-annotation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/di-annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/di-annotation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dynamic-datasource-param/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/easy-cache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-plus-ds/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-plus-ds/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatisplus-boot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scanbean/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc-hystrix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc-hystrix/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

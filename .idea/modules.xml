@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cache-annotation/cache-annotation.iml" filepath="$PROJECT_DIR$/cache-annotation/cache-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/di-annotation/di-annotation.iml" filepath="$PROJECT_DIR$/di-annotation/di-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamic-datasource-param/dynamic-datasource-param.iml" filepath="$PROJECT_DIR$/dynamic-datasource-param/dynamic-datasource-param.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-cache/easy-cache.iml" filepath="$PROJECT_DIR$/easy-cache/easy-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-plus-ds/mybatis-plus-ds.iml" filepath="$PROJECT_DIR$/mybatis-plus-ds/mybatis-plus-ds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatisplus-boot/mybatisplus-boot.iml" filepath="$PROJECT_DIR$/mybatisplus-boot/mybatisplus-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scanbean/scanbean.iml" filepath="$PROJECT_DIR$/scanbean/scanbean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-hystrix/springmvc-hystrix.iml" filepath="$PROJECT_DIR$/springmvc-hystrix/springmvc-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springsource-vip-3.iml" filepath="$PROJECT_DIR$/.idea/springsource-vip-3.iml" />
+    </modules>
+  </component>
+</project>

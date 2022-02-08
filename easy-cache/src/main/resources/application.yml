@@ -1,0 +1,18 @@
+
+#
+
+spring:
+  caffeineCache:
+    expireAfterWrite: 100
+    maximumSize: 10000
+  easycache:
+    redis:
+      max_total: 100
+      max_idle: 10
+      max_wait_millis: 300000
+      test_on_borrow: false
+      test_on_return: false
+      test_while_idle: false
+      redis_ip: 106.52.62.38
+      redis_port: 6379
+      password: 123456

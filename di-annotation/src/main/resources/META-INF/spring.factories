@@ -1,0 +1,7 @@
+#spring工程的扩展
+cn.enjoy.handler.InvokeHandler=cn.enjoy.handler.InvokeAllHandlerImpl,cn.enjoy.handler.InvokeAssignHandlerImpl
+#spring工程的扩展
+
+#springboot方式的扩展
+#org.springframework.boot.autoconfigure.EnableAutoConfiguration=cn.enjoy.config.ConfigBeans
+#cn.enjoy.flow.BeanPostProcessorxxx

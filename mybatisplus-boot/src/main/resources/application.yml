@@ -1,0 +1,84 @@
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+      field-strategy: not_empty
+      #驼峰下划线转换
+      column-underline: true
+      #逻辑删除配置
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+      db-type: mysql
+    refresh: false
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+
+
+druid-master:
+  jdbcUrl: jdbc:mysql://localhost:3306/consult?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&useSSL=false
+  jdbcUrl1: jdbc:mysql://94.191.83.120:3310/order?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&useSSL=false
+  username: root
+  password: 123456
+  driver-class-name: com.mysql.jdbc.Driver
+  minIdle: 2
+  maxActive: 10
+  maxWait: 60000
+  timeBetweenEvictionRunsMillis: 60000
+  minEvictableIdleTimeMillis: 300000
+  validationQuery: SELECT 1 FROM DUAL
+  testWhileIdle: true
+  testOnBorrow: false
+  testOnReturn: false
+  poolPreparedStatements: true
+  maxPoolPreparedStatementPerConnectionSize: 20
+  filters: stat,wall
+  connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+spring:
+  datasource:
+    dynamic:
+      datasource:
+        master:
+          username: root
+          password: 123456
+          driver-class-name: com.mysql.jdbc.Driver
+          url: jdbc:mysql://localhost:3306/consult?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&useSSL=false
+          druid:
+            minIdle: 2
+            maxActive: 10
+            maxWait: 60000
+            timeBetweenEvictionRunsMillis: 60000
+            minEvictableIdleTimeMillis: 300000
+            validationQuery: SELECT 1 FROM DUAL
+            testWhileIdle: true
+            testOnBorrow: false
+            testOnReturn: false
+            poolPreparedStatements: true
+            maxPoolPreparedStatementPerConnectionSize: 20
+            filters: stat,wall
+            connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+        slave:
+          username: root
+          password: 123456
+          driver-class-name: com.mysql.jdbc.Driver
+          url: jdbc:mysql://localhost:3306/consult?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&useSSL=false
+          druid:
+            minIdle: 2
+            maxActive: 10
+            maxWait: 60000
+            timeBetweenEvictionRunsMillis: 60000
+            minEvictableIdleTimeMillis: 300000
+            validationQuery: SELECT 1 FROM DUAL
+            testWhileIdle: true
+            testOnBorrow: false
+            testOnReturn: false
+            poolPreparedStatements: true
+            maxPoolPreparedStatementPerConnectionSize: 20
+            filters: stat,wall
+            connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+      primary: master
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/consult?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&useSSL=false
+    username: root
+    password: 123456
